@@ -13,6 +13,7 @@ st.sidebar.markdown("""
 4. You should see the generated restaurant names and menu items displayed on the web page.
 """)
 
+
 # Improved Layout
 col1, col2 = st.columns(2)
 
@@ -34,3 +35,14 @@ if st.sidebar.button("Generate"):
         for item in menu_items:
             st.write(f"- {item.strip()}")
         st.write("---")
+
+
+# Copyright and Email
+st.sidebar.markdown("""
+---
+For inquiries, please contact: ayodeleayodeji250@gmail.com
+""")
+
+st.sidebar.markdown("""
+© 2023 Ayodele Ayodeji. All Rights Reserved.
+""")
